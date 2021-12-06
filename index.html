@@ -2,6 +2,8 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/ico" href="./images/favicon.ico" />
+    <link rel="stylesheet" href="./css/estilo.css" type="text/css" />
     <title>Quienes Somos - Proyecto HTML - Raúl Aguilar</title>
   </head>
   <body>
@@ -18,22 +20,25 @@
         </li>
         <li>
           <img src="./images/servicios.png" alt="Servicios" />
-          <a href="./servicios.html">
-            <p>Servicios</p>
-          </a>
+          <a href="./servicios.html"> Servicios </a>
         </li>
         <li>
           <img src="./images/contacto.png" alt="Contacto" />
-          <a href="./contacto.html">
-            <p>Contacto</p>
-          </a>
+          <a href="./contacto.html"> Contacto </a>
         </li>
       </ul>
     </nav>
     <section>
-      <h1>Quienes somos</h1>
-      <article>
+      <div id="titulo"><h1>Quienes somos</h1></div>
+      <article class="tarjeta_articulos">
+        <img
+          src="./images/set_rodaje_1.jpg"
+          alt="Set de rodaje 1"
+          id="img_rodaje_1"
+          class="imagen_articulo"
+        />
         <h2>Seguidores de las últimas tendencias</h2>
+        <hr />
         <p>
           Adaptamos nuestras instalaciones a los nuevos formatos de creación de
           contenido. Siempre tratamos de adaptarnos a todo.
@@ -42,10 +47,17 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
           interdum justo ante, at dignissim nulla ullamcorper a.
         </p>
-        <figure>
-          <img src="./images/set_rodaje_1.jpg" alt="Set de rodaje 1" />
-        </figure>
+      </article>
+      <article class="tarjeta_articulos">
+        <img
+          src="./images/equipo_de_grabacion_1.jpg"
+          alt="Equipo de grabación 1"
+          id="img_equipo_1"
+          class="imagen_articulo"
+        />
+
         <h2>Gran cantidad de equipo disponible</h2>
+        <hr />
         <p>
           Contamos con el mayor número de equipos y material cinematográfico del
           sector, desde clásicos a prototipos que no se encuentran en el mercado
@@ -57,12 +69,25 @@
           Ut eu purus tincidunt, pulvinar erat sit amet, auctor arcu. Vestibulum
           porta malesuada sem.
         </p>
-        <figure>
-          <img
-            src="./images/equipo_de_grabacion_1.jpg"
-            alt="Equipo de grabación 1"
-          />
-        </figure>
+      </article>
+      <article class="tarjeta_articulos">
+        <img
+          src="./images/set_rodaje_1.jpg"
+          alt="Set de rodaje 1"
+          id="set_rodaje_2"
+          class="imagen_articulo"
+        />
+
+        <h2>Seguidores de las últimas tendencias</h2>
+        <hr />
+        <p>
+          Adaptamos nuestras instalaciones a los nuevos formatos de creación de
+          contenido. Siempre tratamos de adaptarnos a todo.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+          interdum justo ante, at dignissim nulla ullamcorper a.
+        </p>
       </article>
     </section>
     <footer>Raúl Aguilar García</footer>
